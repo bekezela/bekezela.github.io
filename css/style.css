@@ -1,0 +1,140 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: #557A95;
+    color: #fff;
+}
+#header-contact{
+    color: #fff;
+    float: right;
+    margin-top: -63px;
+    padding: 20px;
+}
+#header-contact:hover{
+    font-size: 18px;
+    font-weight: bold;
+}
+#navbar{
+/*    background-color: #e5dfdf;*/
+    background-color: #c8e6f5;
+    color: #fff;  
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #557A95;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    color: #fff;
+    padding: 5px;
+    margin-top: 35px;
+    box-sizing: border-box;
+}
+#sidebar #mypic{
+    border-radius: 50px;
+}
+#show-case{
+    height: 350px;
+/*    margin-bottom: 30px;*/
+}
+#show-case #items{
+    float: left;
+/*    float: right;*/
+    width: 30%;
+    align-items: stretch;
+    background: #fff;
+    color: #557A95;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    box-shadow:  5px 10px 8px #557A95;
+    border-radius: 5px;
+}
+#show-case #items:hover{
+    background-color: #7395AE;
+    color: #fff;
+}
+#show-case h3{
+    color: #557A95;
+    font-size: 25px;
+    line-height: 1.6em;
+    text-decoration: none;
+    text-align: center;
+}
+#show-case h3 a{
+    text-decoration: none;
+    color: #557A95;
+}
+#show-case h3 a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+#hike-img{
+   float: left;
+    border-radius: 90%;
+    box-sizing: border-box;
+}
+#hike{
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+}
+#main-footer{
+    background: #557A95;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+#main-footer a i{
+    color: #fff;
+    margin: 15px;
+}
+#main-footer a i:hover{
+/*
+    color: red;
+    font-size: 48px;
+*/
+}
+
+@media (max-width:600px){
+    #main{
+        width: 60%;
+/*        clear: both;*/
+    }
+    #show-case #items{
+        width: 400px;
+        display: inline-block;
+    }
+}
